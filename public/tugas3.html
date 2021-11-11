@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Formpengisian</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body style="height: max-content; background-image:url(https://wallup.net/wp-content/uploads/2019/10/884245-sakura-tokyo-spring-flower-peoples-tree-nature-pink.jpg); background-size: cover;">
+    <div class="text-black-100"> <!--warnai text-->
+        <div class="card-body"></div><!--agar background putih ditengah-->
+            <div class="container mt-3">
+                <div class="p-5  bg-white rounded"><!--beri background putih-->
+                    <div class="col-12"></div><!--span 12(grid system)-->
+                        <div>
+                            <h1 class="text-center font-weight-bold">Form Pengumpulan Tugas</h1>
+                            <p class="text-center"> Kumpulkan tugasmu sebelum deadline </p>
+                        </div>
+                        <form>
+                            <div class="custom-control custom-checkbox mb-3">
+                                <input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
+                                <label class="custom-control-label" for="customCheck">Saya berjanji mengerjakan tugas tanpa mencontek</label>
+                            </div>
+                            <div class="container mt-3">
+                                <p>Saya sudah mempelajari video pembelajaran yang disediakan :</p>
+                                <form action="/action_page.php">
+                                <div class="custom-control custom-radio custom-control-inline">
+                                    <input type="radio" class="custom-control-input" id="customRadio1" name="tonton1">
+                                    <label class="custom-control-label" for="customRadio1">Ya, saya sudah menonton</label>
+                                </div>
+                                <div class="custom-control custom-radio custom-control-inline">
+                                    <input type="radio" class="custom-control-input" id="customRadio2" name="tonton1">
+                                    <label class="custom-control-label" for="customRadio2">Tidak, saya belum menonton</label>
+                                </div>
+                                </form>
+                            </div>
+                            <p> </p>
+                            <div class="form-group">
+                                <label for="email">Email :</label>
+                                <input type="email" class="form-control" placeholder="Enter email" id="email">
+                            </div>
+                            <div class="form-group">
+                                <label for="usr" class="font-weight">NRP</label>
+                                <input type="text" class="form-control" id="usr">
+                            </div>
+                            <div class="form-group">
+                                <label for="usr" class="font-weight">Nama</label>
+                                <input type="text" class="form-control" id="usr">
+                            </div>
+                            <select name="week" class="custom-select custom-select-sm mb-3">
+                                <option selected>Tugas Minggu ke</option>
+                                <option value="week">1</option>
+                                <option value="week">2</option>
+                                <option value="week">3</option>
+                                <option value="week">4</option>
+                                <option value="week">5</option>
+                                <option value="week">6</option>
+                                <option value="week">7</option>
+                                <option value="week">8</option>
+                                <option value="week">9</option>
+                                <option value="week">10</option>
+                                <option value="week">11</option>
+                                <option value="week">12</option>
+                                <option value="week">13</option>
+                                <option value="week">14</option>
+                                <option value="week">15</option>
+                                <option value="week">16</option>
+                            </select>
+                            <div class="custom-file mb-3">
+                                <input type="file" class="custom-file-input" id="customFile" name="filename">
+                                <label class="custom-file-label" for="customFile">Choose file</label>
+                            </div>
+                            <form action="/action_page.php">
+                                <label for="customRange">Skala Pemahaman Anda Terkait Materi</label>
+                                <input type="range" class="custom-range" id="customRange" name="points1">
+                            </form>
+                            <p> </p>
+                            <div class="custom-control custom-switch">
+                                <input type="checkbox" class="custom-control-input" id="switch1" name="example">
+                                <label class="custom-control-label" for="switch1">Kirimkan jawaban ke email saya</label>
+                            </div>
+                            <p> </p>
+                            <div class="mt-3">
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </div>
+                        </form>
+                </div>
+            </div>
+    </div>
+</body>
+
+</html>
