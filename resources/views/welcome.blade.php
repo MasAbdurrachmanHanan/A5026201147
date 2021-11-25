@@ -95,6 +95,7 @@
                     <a href="praktikum2">Praktikum 2</a>
                     <a href="ets">ETS</a>
                     <a href="isibmi">Tugas PHP</a>
+                    <a href="pendapatan">Tugas Pendapatan</a>
                 </div>
             </div>
         </div>
