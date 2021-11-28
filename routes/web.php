@@ -25,6 +25,38 @@ Route::get('praktikum2', function () {
     return view('htmlprak2');
 });
 
+//tugassbd
+//anggota
+Route::get('/anggota','AnggotaController@index');
+Route::get('/anggota/tambah','AnggotaController@tambah');
+Route::post('/anggota/store','AnggotaController@store');
+Route::get('/anggota/edit/{NRP}','AnggotaController@edit');
+Route::post('/anggota/update','AnggotaController@update');
+Route::get('/anggota/hapus/{NRP}','AnggotaController@hapus');
+//proker
+Route::get('/proker','ProkerController@index');
+Route::get('/proker/tambah','ProkerController@tambah');
+Route::post('/proker/store','ProkerController@store');
+Route::get('/proker/edit/{NamaProker}','ProkerController@edit');
+Route::post('/proker/update','ProkerController@update');
+Route::get('/proker/hapus/{NamaProker}','ProkerController@hapus');
+//staff
+Route::get('/staff','StaffController@index');
+Route::get('/staff/tambah','StaffController@tambah');
+Route::post('/staff/store','StaffController@store');
+Route::get('/staff/edit/{ID}','StaffController@edit');
+Route::post('/staff/update','StaffController@update');
+Route::get('/staff/hapus/{ID}','StaffController@hapus');
+//staffahli
+Route::get('/staffahli','StaffAhliController@index');
+Route::get('/staffahli/tambah','StaffAhliController@tambah');
+Route::post('/staffahli/store','StaffAhliController@store');
+Route::get('/staffahli/edit/{ID}','StaffAhliController@edit');
+Route::post('/staffahli/update','StaffAhliController@update');
+Route::get('/staffahli/hapus/{ID}','StaffAhliController@hapus');
+
+
+
 //jika ternyata butuh ngeload banyak proses
 Route::get('isiannama', "ViewController@showForm") ;
 Route::post('greetings', "ViewController@resultGreetings") ;
