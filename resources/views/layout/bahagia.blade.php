@@ -38,7 +38,7 @@
                       <li class="breadcrumb-item"><a href="/pegawai">Pegawai</a></li> <br>
                       <li class="breadcrumb-item"><a href="/absen">Absen</a></li> <br>
                       <li class="breadcrumb-item"><a href="/pendapatan">Pendapatan</a></li> <br>
-                      <li class="breadcrumb-item active" aria-current="/praktikum">Praktikum</li> <br>
+                      <li class="breadcrumb-item"><a href="/penggaris">Praktikum</a></li> <br>
                     </ol>
                   </nav>
             </div>
