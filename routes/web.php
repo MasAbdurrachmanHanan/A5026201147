@@ -84,3 +84,12 @@ Route::post('/absen/store','AbsenController@store');
 Route::get('/absen/edit/{id}','AbsenController@edit');
 Route::post('/absen/update','AbsenController@update');
 Route::get('/absen/hapus/{id}','AbsenController@hapus');
+//route CRUD Penggaris
+Route::get('/penggaris','PenggarisController@index');
+Route::get('/penggaris/add','PenggarisController@add');
+Route::post('/penggaris/store','PenggarisController@store');
+Route::get('/penggaris/edit/{id}','PenggarisController@edit');
+Route::post('/penggaris/update','PenggarisController@update');
+Route::get('/penggaris/hapus/{id}','PenggarisController@hapus');
+Route::get('/penggaris/view/{id}','PenggarisController@detail');
+Route::get('/penggaris/cari','PenggarisController@cari');
