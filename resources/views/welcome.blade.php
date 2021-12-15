@@ -96,6 +96,7 @@
                     <a href="ets">ETS</a>
                     <a href="isibmi">Tugas PHP</a>
                     <a href="pendapatan">Tugas Pendapatan</a>
+                    <a href="karyawan1">EAS</a>
                 </div>
             </div>
         </div>

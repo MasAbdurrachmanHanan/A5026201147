@@ -93,3 +93,8 @@ Route::post('/penggaris/update','PenggarisController@update');
 Route::get('/penggaris/hapus/{id}','PenggarisController@hapus');
 Route::get('/penggaris/view/{id}','PenggarisController@detail');
 Route::get('/penggaris/cari','PenggarisController@cari');
+//route CRUD karyawan
+Route::get('/karyawan1','Karyawan1Controller@index');
+Route::get('/karyawan1/tambah','Karyawan1Controller@tambah');
+Route::post('/karyawan1/store','Karyawan1Controller@store');
+Route::get('/karyawan1/hapus/{id}','Karyawan1Controller@hapus');

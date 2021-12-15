@@ -39,6 +39,7 @@
                       <li class="breadcrumb-item"><a href="/absen">Absen</a></li> <br>
                       <li class="breadcrumb-item"><a href="/pendapatan">Pendapatan</a></li> <br>
                       <li class="breadcrumb-item"><a href="/penggaris">Praktikum</a></li> <br>
+                      <li class="breadcrumb-item"><a href="/karyawan1">EAS</a></li> <br>
                     </ol>
                   </nav>
             </div>
